@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Swiggy TestSuite" duration-ms="111804" started-at="2019-04-06T12:57:25Z" finished-at="2019-04-06T12:59:17Z">
+    <groups>
+    </groups>
+    <test name="Tests in Firefox" duration-ms="65639" started-at="2019-04-06T12:57:25Z" finished-at="2019-04-06T12:58:31Z">
+      <class name="AllTests">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:AllTests@5622fdf]" name="beforeClassMethod" is-config="true" duration-ms="3316" started-at="2019-04-06T12:57:25Z" finished-at="2019-04-06T12:57:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:AllTests@5622fdf]" name="setUp" is-config="true" duration-ms="26080" started-at="2019-04-06T12:57:29Z" finished-at="2019-04-06T12:57:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="orderFromRestaurantWithSingleOutlet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests@5622fdf]" name="orderFromRestaurantWithSingleOutlet" duration-ms="27689" started-at="2019-04-06T12:57:55Z" finished-at="2019-04-06T12:58:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indiranagar , Bengaluru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indiranagar, Bengaluru, Karnataka, India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bite Me]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9110956783]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abcdefg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc abc]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc@def.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Indiranagar , Bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderFromRestaurantWithSingleOutlet -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllTests@5622fdf]" name="tearDown" is-config="true" duration-ms="8515" started-at="2019-04-06T12:58:23Z" finished-at="2019-04-06T12:58:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderFromRestaurantWithSingleOutlet status=SUCCESS method=AllTests.orderFromRestaurantWithSingleOutlet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests@5622fdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClassMethod()[pri:0, instance:AllTests@5622fdf]" name="afterClassMethod" is-config="true" duration-ms="1" started-at="2019-04-06T12:58:31Z" finished-at="2019-04-06T12:58:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- AllTests -->
+    </test> <!-- Tests in Firefox -->
+    <test name="Tests in Chrome" duration-ms="46115" started-at="2019-04-06T12:58:31Z" finished-at="2019-04-06T12:59:17Z">
+      <class name="AllTests">
+        <test-method status="PASS" signature="beforeClassMethod()[pri:0, instance:AllTests@73ad2d6]" name="beforeClassMethod" is-config="true" duration-ms="2677" started-at="2019-04-06T12:58:31Z" finished-at="2019-04-06T12:58:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:AllTests@73ad2d6]" name="setUp" is-config="true" duration-ms="14043" started-at="2019-04-06T12:58:34Z" finished-at="2019-04-06T12:58:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="orderFromRestaurantWithSingleOutlet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests@73ad2d6]" name="orderFromRestaurantWithSingleOutlet" duration-ms="22689" started-at="2019-04-06T12:58:48Z" finished-at="2019-04-06T12:59:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indiranagar , Bengaluru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Indiranagar, Bengaluru, Karnataka, India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bite Me]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9110956783]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abcdefg]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc abc]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[abc@def.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Indiranagar , Bengaluru]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderFromRestaurantWithSingleOutlet -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AllTests@73ad2d6]" name="tearDown" is-config="true" duration-ms="6698" started-at="2019-04-06T12:59:11Z" finished-at="2019-04-06T12:59:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=orderFromRestaurantWithSingleOutlet status=SUCCESS method=AllTests.orderFromRestaurantWithSingleOutlet(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:AllTests@73ad2d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClassMethod()[pri:0, instance:AllTests@73ad2d6]" name="afterClassMethod" is-config="true" duration-ms="1" started-at="2019-04-06T12:59:17Z" finished-at="2019-04-06T12:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+      </class> <!-- AllTests -->
+    </test> <!-- Tests in Chrome -->
+  </suite> <!-- Swiggy TestSuite -->
+</testng-results>

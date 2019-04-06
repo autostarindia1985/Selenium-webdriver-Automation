@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="E2E Suite">
+
+        <parameter name="browsers" value="firefox"/>
+        <parameter name="searchQuery" value="Indiranagar , Bengaluru"/>
+         <parameter name="mobileNumber" value="Indiranagar,Bengaluru,Karnataka,India"/>
+	     <parameter name="password" value="Indiranagar , Bengaluru"/>
+	      <parameter name="buildingAddress" value="Indiranagar , Bengaluru"/>
+	       <parameter name="landmarkAddress" value="Indiranagar , Bengaluru"/>
+	        <parameter name="exactLocation" value="Indiranagar, Bengaluru, Karnataka, India"/>
+	         <parameter name="paymentMethod" value="Indiranagar , Bengaluru"/>
+	          <parameter name="restaurantName" value="Bite Me"/>
+	           <parameter name="mobileNumber" value="9110956783"/>
+	           	<parameter name="name" value="abc abc"/>
+	            <parameter name="password" value="abcdefg"/>
+	            <parameter name="email" value="abc@def.com"/>
+	            
+	           	
+	   <test name="Tests in Firefox">                   
+        <classes>
+            <class name="AllTests"/>
+        </classes>
+
+    </test>        
+	          
+	         
+    
+
+    <test name="Tests in Chrome">
+
+        <parameter name="browsers" value="chrome"/>
+
+        <classes>
+            <class name="AllTests">
+            <methods>
+               <include name=".*orderFromRestaurant.*"/>
+            </methods>
+            
+            </class>
+        </classes>
+
+    </test>
+
+</suite>
