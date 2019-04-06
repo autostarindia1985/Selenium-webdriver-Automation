@@ -1,4 +1,4 @@
-# SeleniumAutomation
+# Selenium Wedriver Automation
 This repository includes the e2e test automation of swiggy application for one order flow. Test scrips are written in Java using selenium java client bindings.
 Quick overview of Framework:
 
